@@ -12,8 +12,7 @@ namespace PracticalTest
 
         public PracticalTwoTest()
         {
-            //TODO: Instantiate your implementation
-            _practicalTwo = null; //new PracticalTwo();
+            _practicalTwo = new PracticalTwo();
         }
 
         [TestMethod]
