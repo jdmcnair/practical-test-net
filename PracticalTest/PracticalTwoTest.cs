@@ -35,7 +35,7 @@ namespace PracticalTest
         {
             IPerson person = GetFamilyTree();
             var modeHair = _practicalTwo.ModeHairColorOfAllAncestors(person);
-            Assert.AreEqual("white", modeHair);
+            Assert.AreEqual("blond", modeHair);
         }
 
 
